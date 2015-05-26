@@ -12,7 +12,8 @@ body {
   font-family: 'Montserrat';
   width: 100%;
   margin-left: 0px;
-  padding-left: 0px; }
+  padding-left: 0px;
+  font-size: 85%; }
 
 .nav ul {
   list-style-type: none;
@@ -27,7 +28,8 @@ body {
   display: inline;
   vertical-align: middle;
   padding-left: 10px;
-  padding-right: 10px; }
+  padding-right: 10px;
+  padding-bottom: 6px; }
 
 .nav1,
 .nav2,
@@ -37,7 +39,7 @@ body {
 
 .nav1 {
   text-align: left;
-  width: 30%; }
+  width: 35%; }
 
 .nav2 {
   text-align: middle;
@@ -45,7 +47,7 @@ body {
 
 .nav3 {
   text-align: right;
-  width: 30%; }
+  width: 35%; }
 
 .vertical-logo {
   height: 120px;
@@ -136,12 +138,16 @@ body {
   margin-right: 5px; }
 
 .copyright {
-  margin-left: 85px; }
+  margin-left: 80px; }
 
 .copyright li {
   display: inline-block;
   margin-left: 15px;
   font-size: 10px;
   vertical-align: middle; }
+
+@media screen and (max-width: 320px) {
+  body, .nav, .nav ul, .nav li, .nav1, .nav2, .nav3, .vertical-logo, .banner, .how, .button1, .button2, .button3, .signup, .step1, .step2, .step3, .steps, .footer, .horizontal-logo, .footer1, .footer2, .footer3, .copyright {
+    max-width: 320px; } }
 
 /*# sourceMappingURL=styles.css.map */
